@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kwak123/kwak-react#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
@@ -27,6 +28,7 @@
     "jest": "^21.2.1",
     "mocha": "^4.0.1",
     "nodemon": "^1.12.1",
+    "react-test-renderer": "^16.2.0",
     "webpack": "^3.9.1"
   },
   "dependencies": {
