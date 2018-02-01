@@ -8,4 +8,6 @@ Run commands
 2. npm run react-dev
 3. npm start
 
+Note, you will need to run npm start in a separate terminal instance or window
+
 Code away!
