@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel watch index.html --out-dir server/dist"
+    "start": "parcel index.html --out-dir dist/"
   },
   "repository": {
     "type": "git",
@@ -22,17 +22,19 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.1",
-    "babel-core": "^7.0.0-0",
-    "babel-jest": "^25.1.0",
+    "@types/jest": "^25.1.4",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
     "jest": "^25.1.0",
-    "nodemon": "^2.0.2",
     "parcel-bundler": "^1.12.4",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "react-testing-library": "^8.0.1",
+    "ts-jest": "^25.2.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1",
-    "node": "^13.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.1.2",
