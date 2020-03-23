@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react"
 
 class Main extends React.Component {
   render() {
@@ -6,8 +6,8 @@ class Main extends React.Component {
       <div>
         <h1> Welcome! </h1>
       </div>
-    );
+    )
   }
 }
 
-export default Main;
+export default Main
