@@ -4,9 +4,8 @@
   "description": "simple boiler plate for react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/index.js",
-    "react-dev": "parcel watch index.html --out-dir server/dist"
+    "test": "jest",
+    "start": "parcel watch index.html --out-dir server/dist"
   },
   "repository": {
     "type": "git",
@@ -19,25 +18,24 @@
   },
   "homepage": "https://github.com/kwak123/kwak-react#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.0",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
     "babel-core": "^7.0.0-0",
-    "babel-jest": "^23.6.0",
-    "jest": "^23.6.0",
-    "nodemon": "^1.12.1",
-    "parcel-bundler": "^1.10.0",
-    "react-test-renderer": "^16.2.0"
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "parcel-bundler": "^1.12.4",
+    "react-test-renderer": "^16.13.1"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "express": "^4.16.2",
-    "node": "^10.11.0",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2"
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "node": "^13.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
   }
 }
